@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "error": null,
+  "original_image": null,
+  "annotated_image": null,
+  "abnormal_only_image": null,
+  "abnormal_count": 1,
+  "overall_color": {
+    "r": 145,
+    "g": 109,
+    "b": 83,
+    "hex": "#916D53"
+  },
+  "all_region_results": {
+    "腦": "發黑",
+    "肺": "正常",
+    "心": "正常",
+    "肝": "正常",
+    "脾": "正常",
+    "左腎": "正常",
+    "右腎": "正常",
+    "左胃": "正常",
+    "右胃": "正常",
+    "左大腸": "正常",
+    "右大腸": "正常",
+    "膀胱": "正常",
+    "左眼白": "正常",
+    "右眼白": "正常",
+    "下巴": "正常"
+  },
+  "region_results": {
+    "腦": "發黑"
+  },
+  "grid_analysis": null,
+  "cyan_report": null
+}

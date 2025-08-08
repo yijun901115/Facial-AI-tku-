@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "TCMHAP"
+version = "0.1.0"
+description = "畢業專題-中醫健康分析後端(Python程式)"
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+flask = "^3.1.1"
+opencv-python = "^4.11.0.86"
+numpy = "1.26.4"
+dlib = { path = "libs/dlib-19.24.1-cp311-cp311-win_amd64.whl" }
+insightface = {path = "libs/insightface-0.7.3-cp311-cp311-win_amd64.whl"}
+mediapipe = {path = "libs/mediapipe-0.10.9-cp311-cp311-win_amd64.whl"}
+onnxruntime = "^1.22.1"
+torch = "^2.7.1"
+
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+black = "^23.12.1"
+mypy = "^1.14.1"
+
+[build-system]
+requires = ["poetry-core>=1.7.0"]
+build-backend = "poetry.core.masonry.api"
